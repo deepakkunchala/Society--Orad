@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "939151239842",
+    "firebase_url": "https://society-orad-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "society-orad",
+    "storage_bucket": "society-orad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939151239842:android:b2495a322dd018af9f05fb",
+        "android_client_info": {
+          "package_name": "com.example.oradadmins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939151239842-835mgcj7t7t381d19r2cbj3sj9lmvmq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcco0LZYAv88hf_quII0Ei0R9sgAB7Grc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939151239842-835mgcj7t7t381d19r2cbj3sj9lmvmq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939151239842:android:9ea0d74bbceadbe79f05fb",
+        "android_client_info": {
+          "package_name": "com.example.societyorad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939151239842-835mgcj7t7t381d19r2cbj3sj9lmvmq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcco0LZYAv88hf_quII0Ei0R9sgAB7Grc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939151239842-835mgcj7t7t381d19r2cbj3sj9lmvmq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939151239842:android:54fbbcf5983c39369f05fb",
+        "android_client_info": {
+          "package_name": "com.example.societyorad2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939151239842-835mgcj7t7t381d19r2cbj3sj9lmvmq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcco0LZYAv88hf_quII0Ei0R9sgAB7Grc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939151239842-835mgcj7t7t381d19r2cbj3sj9lmvmq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

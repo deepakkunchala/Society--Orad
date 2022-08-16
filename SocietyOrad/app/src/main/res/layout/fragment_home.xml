@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homes"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EAC66B"
+            android:elevation="5dp"
+            >
+
+            <TextView
+                android:id="@+id/home_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerInParent="true"
+                android:text="Welcome Sai Ganesh"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FUNDS"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="3dp">
+
+                <com.google.android.material.card.MaterialCardView
+
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:background="@drawable/cardviewdesign">
+
+                        <TextView
+                            android:id="@+id/home_todaydonation_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="Donations Recieved Today :"
+                            android:textStyle="bold"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/home_todaydonation_text"
+                            android:layout_marginTop="20dp"
+                            android:textSize="25dp"
+                            android:textAlignment="center"
+                            android:text="Rs.50000" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:background="@drawable/cardviewdesign"
+                        >
+
+                        <TextView
+                            android:id="@+id/home_monthdonation_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="Donations Recieved This month :"
+                            android:textStyle="bold"
+                            android:textSize="19sp"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/home_monthdonation_text"
+                            android:layout_marginTop="20dp"
+                            android:text="Rs.50000"
+                            android:textAlignment="center"
+                            android:textSize="25dp" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:background="@drawable/cardviewdesign">
+
+                        <TextView
+                            android:id="@+id/home_yeardonation_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="Donations Recieved This Year :"
+                            android:textStyle="bold"
+                            android:textSize="19sp"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/home_yeardonation_text"
+                            android:layout_marginTop="20dp"
+                            android:textSize="25dp"
+                            android:textAlignment="center"
+                            android:text="Rs.50000" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONORS"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="3dp">
+
+                <com.google.android.material.card.MaterialCardView
+
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:background="@drawable/cardviewdesign">
+
+                        <TextView
+                            android:id="@+id/home_todaynewdonors_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="Donors joined Today :"
+                            android:textStyle="bold"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/home_todaynewdonors_text"
+                            android:layout_marginTop="20dp"
+                            android:textSize="25dp"
+                            android:textAlignment="center"
+                            android:text="50000" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:background="@drawable/cardviewdesign"
+                        >
+
+                        <TextView
+                            android:id="@+id/home_monthnewdonors_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="Donors joined This month :"
+                            android:textStyle="bold"
+                            android:textSize="19sp"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/home_monthnewdonors_text"
+                            android:layout_marginTop="20dp"
+                            android:text="Rs.50000"
+                            android:textAlignment="center"
+                            android:textSize="25dp" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:background="@drawable/cardviewdesign">
+
+                        <TextView
+                            android:id="@+id/home_yearnewdonors_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="Donors joined This Year :"
+                            android:textStyle="bold"
+                            android:textSize="19sp"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/home_yearnewdonors_text"
+                            android:layout_marginTop="20dp"
+                            android:textSize="25dp"
+                            android:textAlignment="center"
+                            android:text="Rs.50000" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONORS OF THE DAY"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+       <HorizontalScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal">
+
+           <com.google.android.material.card.MaterialCardView
+               android:layout_width="250dp"
+               android:layout_height="125dp"
+               android:layout_margin="5dp"
+               android:padding="10dp"
+               app:cardCornerRadius="5dp"
+               app:cardElevation="10dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <ImageView
+                       android:id="@+id/aboutus_founderphoto"
+                       android:layout_width="100dp"
+
+                       android:layout_height="match_parent"
+                       android:layout_centerVertical="true"
+                       android:layout_marginLeft="5dp"
+                       android:src="@drawable/manjunadh" />
+
+                   <TextView
+                       android:id="@+id/Donorofthemonthename"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                       android:layout_marginLeft="15dp"
+                       android:layout_toRightOf="@+id/aboutus_founderphoto"
+                       android:text="Manjunadh Chilakala"
+                       android:textSize="20sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@id/Donorofthemonthename"
+                       android:layout_marginLeft="15dp"
+                       android:layout_toRightOf="@+id/aboutus_founderphoto"
+                       android:text="Rs.1000"
+                       android:textSize="24sp" />
+
+
+               </RelativeLayout>
+
+
+           </com.google.android.material.card.MaterialCardView>
+
+           <com.google.android.material.card.MaterialCardView
+               android:layout_width="250dp"
+               android:layout_height="125dp"
+               android:layout_margin="5dp"
+               android:padding="10dp"
+               app:cardCornerRadius="5dp"
+               app:cardElevation="10dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <ImageView
+                       android:id="@+id/aboutus_ounderphoto"
+                       android:layout_width="100dp"
+                       android:layout_height="match_parent"
+                       android:layout_centerVertical="true"
+                       android:layout_marginLeft="5dp"
+                       android:src="@drawable/manjunadh" />
+
+                   <TextView
+                       android:id="@+id/Donorofthemonthename2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentTop="true"
+                       android:layout_marginLeft="15dp"
+                       android:layout_toRightOf="@+id/aboutus_ounderphoto"
+                       android:text="Manjunadh Chilakala"
+                       android:textSize="20sp" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@id/Donorofthemonthename2"
+                       android:layout_marginLeft="15dp"
+                       android:layout_toRightOf="@+id/aboutus_ounderphoto"
+                       android:text="Rs.1000"
+                       android:textSize="20sp" />
+
+
+               </RelativeLayout>
+
+
+           </com.google.android.material.card.MaterialCardView>
+
+           </LinearLayout>
+
+       </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONORS OF THE MONTH"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/aboutus_underphoto"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/manjunadh" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/aboutus_underphoto"
+                            android:text="Manjunadh Chilakala"
+                            android:textSize="20sp" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/aboutus_nderphoto"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/manjunadh" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/aboutus_nderphoto"
+                            android:text="Manjunadh Chilakala"
+                            android:textSize="20sp" />
+
+
+                    </RelativeLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BECOME A PART OF US"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:text=" You can contribute to Society ORAD by not only donating money, but also by becoming a Volunteer. \n By becoming a Volunteer , You can help us to expand our Family and  you can also find many benifits like getting a Certificate of WORK." />
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click here to become a Volunteer"
+            android:background="#deafed"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

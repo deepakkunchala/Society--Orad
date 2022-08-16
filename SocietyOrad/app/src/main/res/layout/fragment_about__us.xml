@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.about_us.About_UsFragment"
+    android:id="@+id/aboutus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/aboutus_header"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#BAB068"
+            android:elevation="5dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/aboutus_header_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/orad_logo" />
+
+            <TextView
+                android:id="@+id/aboutus_header_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/aboutus_header_image"
+                android:text="Society O.R.A.D"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aboutus_header_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_header_Title"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/aboutus_header_image"
+                android:text="www.societyorad.org"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FOUNDER"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/aboutus_founderphoto"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/manjunadh" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/aboutus_founderphoto"
+                        android:text="Manjunadh Chilakala"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VOLUNTEERS"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="250dp"
+                        android:layout_height="125dp"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/aboutus_volunteer1"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/manjunadh" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="15dp"
+                                android:layout_toRightOf="@+id/aboutus_volunteer1"
+                                android:text="Manjunadh Chilakala"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="250dp"
+                        android:layout_height="125dp"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/aboutus_volunteer2"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/manjunadh" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="15dp"
+                                android:layout_toRightOf="@+id/aboutus_volunteer2"
+                                android:text="Manjunadh Chilakala"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="This is Just a testing text format . \n mjygdukdgidgiudg fuhfgugfusgfugisfbif auyyao d w fy ew ou adi awr fw ariuru wdw wqr w w wfi. " />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/black">
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Society Orad</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Society ORAD</string>
+    <string name="nav_header_subtitle">One Rupee ADay</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_aboutus">About Us</string>
+    <string name="action_share">Share</string>
+    <string name="action_signout">SignOut</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_signout">SignOut</string>
+    <string name="menu_fund_raising">Fund Raising</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_volunteers">Volunteers</string>
+
+
+    <string-array name="Pincode">
+
+        <item>522601</item>
+        <item>522602</item>
+        <item>522603</item>
+        <item>522604</item>
+        <item>522605</item>
+    </string-array>
+
+
+
+
+</resources>
